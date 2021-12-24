@@ -9,9 +9,11 @@ swoole tcp server
   
   step:1
   
-  install composer [composer](https://github.com/composer/composer)
+  install composer [composer](https://github.com/composer/composer) 
   
-  Also you can run docker composer
+  ```base
+  composer install
+  ```
   
   step:2
   
@@ -27,3 +29,7 @@ swoole tcp server
   docker exec -it test_tcp /bin/bash
   php test.php
   ```
+
+# License
+
+  
